@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é ID, em CSS é # (cerquilha)
+    Usado para identificar um elemento unico na pagina
+    Em HTML é Class, em css é . (ponto)
+    Usado para identificar varios elementos na pagina
+*/
+body{
+    background-image: linear-gradient(to top, #9EF8EE, white);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #F24405;
+}
+h2{
+    color: #0F690C;
+}
+
+h1#principal{
+    text-align: center;
+    color: #F24405;
+}
+
+h2.basico{
+    color: #348888
+
+}
+
+h2.intermediario{
+    color: #22BABB;
+}
+
+h2.avançado{
+
+    color: #348888
+}
