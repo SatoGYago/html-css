@@ -1,0 +1,87 @@
+header{
+    background-color: var(--ChristmasRed);
+    padding: 1%;
+    color: white;
+}
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(253, 243, 229);
+    
+}
+:root{
+    --ChristmasRed : #690200;
+    --Powerred: #B5110E;
+    --TitleColor: #006921;
+
+}
+#Titulo{
+    Color: white;
+    margin: 2%;
+    text-align: center;
+    font-family: "Mountains of Christmas";
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 2%;
+
+}
+nav :hover{
+    color: lightgray;
+    text-decoration: underline;
+}
+nav{
+    background-color: var(--Powerred);
+    
+}
+.HT{
+    margin: 1%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+footer{
+    background-color: var(--ChristmasRed);
+    color: white;
+    padding: 2%;
+    font-size: 1em;
+    text-align: center;
+}
+#PrimeiroArtigo{
+    margin: 2%;
+    padding: 1%;
+    margin-top: 0%;
+}
+img{
+    max-width: 80%;
+}
+aside{
+    margin: 5% 10%;
+    border: 3%;
+    border-radius: 3%;
+    background-color: blanchedalmond;
+    margin-bottom: 0%;
+}
+aside h2{
+    background-color: var(--TitleColor);
+    color: white;
+    border-radius: 3%;
+}
+ul{
+    columns: 2;
+    color: #134A24;
+}
+#artiTitle{
+    color: #134A24;
+}
+.title{
+    color: var(--TitleColor);
+}
+
+
+
